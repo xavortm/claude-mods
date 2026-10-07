@@ -1,1 +1,14 @@
-{ "name": "git-pane", "version": "0.1.0", "description": "Live git status pane (branch, changes, recent commits, Linear issue from branch name)", "types": "./types/index.d.ts" }
+{
+  "name": "git-pane",
+  "version": "0.2.0",
+  "description": "Live git status pane: branch, changes with line counts, open PRs/MRs (GitHub or GitLab), and the Linear issue or Teamwork task from the branch name",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "blockWorktrees": {
+      "type": "boolean",
+      "title": "Block worktrees",
+      "description": "Deny EnterWorktree and new git worktrees, so work stays in the main checkout.",
+      "default": false
+    }
+  }
+}
