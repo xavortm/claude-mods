@@ -8,6 +8,9 @@ My Claude Code mods.
 
 ## git-pane
 
+<img width="661" height="439" alt="image" src="https://github.com/user-attachments/assets/c39adc65-4540-4419-a307-120f6c5a6dd4" />
+
+
 - Branch line above the prompt, with ahead/behind, dirty count and a worktree badge.
 - Changes list with line counts and a 15-file limit.
 - Open PRs or MRs with checks and a checkout button. Uses `gh` for GitHub and `glab` for GitLab.
